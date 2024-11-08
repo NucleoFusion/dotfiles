@@ -1,0 +1,27 @@
+
+[window]
+# decorations = "None"
+opacity = 0.4
+blur = true
+
+[font]
+normal = { family = "JetBrainsMonoNL Nerd Font Propo", style = "Regular"}
+size = 13
+
+[cursor]
+# shape = "Block"
+# blinking = "Never"
+
+[keyboard]
+
+bindings = [
+  {key = "ArrowLeft", mods = "Control", action = "SemanticLeft"},
+  {key = "ArrowRight", mods = "Control", action = "SemanticRight"},
+  {key = "ArrowRight", mods = "Control | Shift", action = "Last"},
+  {key = "ArrowLeft", mods = "Control | Shift", action = "First"}
+]
+
+[general]
+import = [
+  "~/.config/alacritty/themes/themes/catppuccin_frappe.toml"
+]
